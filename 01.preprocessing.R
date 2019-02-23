@@ -1,5 +1,5 @@
 ######################################################################################################
-#### EXPRESSION DATA PRE-PROCESSING - remove unwanted variation vith "RUVcorr" R package #############
+#### EXPRESSION DATA PRE-PROCESSING - remove unwanted variation with "RUVcorr" R package #############
 ######################################################################################################
 source("https://bioconductor.org/biocLite.R")
 biocLite("RUVcorr")

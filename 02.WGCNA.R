@@ -7,7 +7,7 @@ nameData = ""   # the name of your analysis
 
 ### LOAD IMPUT EXPRESSION MATRIX - pre-processed expression data (rows as samples, columns as genes)
 k = 5                             # number of RUV surrogate variables to use 
-input_matrix = RUVexpr.list[k]    # from the output of the previous script "01.preprocessing.R" or any other expression data matrix
+input_matrix = RUVexpr.list[[k]]    # from the output of the previous script "01.preprocessing.R" or any other expression data matrix
 pd = demo.add                     # from the output of the previous script "01.preprocessing.R" 
 CPU = 2                  
 
